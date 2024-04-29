@@ -1,0 +1,28 @@
+import {Link} from 'react-router-dom';
+function RecommendedCourses(){
+    return(
+        <div className="card">
+                <h5 className="card-header">Recommended Courses</h5>
+                <div className="card-body">
+                    <table className="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Created By</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td>Php Development</td>
+                            <td><Link to="/">Suraj Kumar</Link></td>
+                            <td>
+                                <button className="btn btn-danger btn-sm active">Delete</button>
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    );
+}
+
+export default RecommendedCourses;

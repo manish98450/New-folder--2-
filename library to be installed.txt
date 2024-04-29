@@ -1,0 +1,9 @@
+pip install django-cors-headers
+pip install pillow
+pip install djangorestframework
+
+
+
+npm install axios
+npm install react-router-dom --save
+npm install sweetalert2
